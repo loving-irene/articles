@@ -1,0 +1,1 @@
+跟着 w3cshool 上的教程即可，需要安装 java，zookeeper，kafka 以及 PHP 的 kafka 扩展包。
