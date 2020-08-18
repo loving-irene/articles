@@ -113,3 +113,6 @@ mysql/
     #将 mysql 加入到环境变量中
     export PATH=$PATH:/usr/local/mysql/bin/
     ```
+
+7. 执行命令报错缺少module Data::Dumper
+    安装对应的包即可，`yum install perl-Data-Dumper.x86_64`
