@@ -55,7 +55,7 @@ mysql/
 完整的命令
 1. `/usr/local/mysql/scripts/install_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/data/mysql/`
     >因为我执行命令时在 /root/ 目录下，所以加了 --basedir 来避免报错
-2. `/usr/local/mysql/support-file/mysql.server start`
+2. `/usr/local/mysql/support-file/mysql.server start`，这里必须要注意权限问题，如果不是 root 权限，会报错，无法生成 pid 文件
 <br>
 
 #### 可能碰到的问题
