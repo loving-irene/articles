@@ -10,6 +10,7 @@ vagrant up
 vagrant ssh  这样就完成了登录
 ```
 
+**打包**
 基础库已经完成了一些基本设置，只需要将环境所需要的软件安装好就可以再次打包
 ```
 vagrant halt #先停机
@@ -22,4 +23,29 @@ wget https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub
 chmod 700 .ssh
 chmod 600 .ssh/authorized_keys
 chown -R vagrant:vagrant .ssh
+```
+
+官方文档有相关的配置说明以及一些讲解，下面是常规的一些要点
+
+1.在国内下载速度太慢，一般的做法是使用迅雷下载远程镜像，然后在本地进行新增
+```
+vagrant box add choose_name /path/to/download_box
+
+这里的 choose_name 自己随便起
+```
+
+2.初始化 Vagrantfile
+```
+如果想从官方远程下载资源，步骤1直接就不需要
+vagrant init name
+
+这里的 name 如果是官方搜索库中的 shortname，下一步启动时就会从远程下载资源并安装，如果是第一步中自己设置的名字，就会使用本地下载的镜像资源，而不是下载远程资源
+```
+
+3.安装并登陆
+```
+vagrant up
+vagrant ssh
+
+使用第二步的默认配置登陆之后，程序会自动生成新的 ssh key 并替换掉原来的 insecure key，如果你继续打包生成新 box，在使用时会报授权错误。   
 ```
