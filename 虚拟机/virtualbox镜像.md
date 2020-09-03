@@ -28,10 +28,10 @@ chown -R vagrant:vagrant .ssh
 **配置**
 ```
 关闭自动生成ssh key
-config.vm.insert_key=false
+config.ssh.insert_key=false
 
 配置固定ip
-config.ssh.network "private_work",ip:"192.168.20.20"
+config.vm.network "private_work",ip:"192.168.20.20"
 ```
 
 **如何自己下载镜像完成配置**
