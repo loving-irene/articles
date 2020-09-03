@@ -25,6 +25,16 @@ chmod 600 .ssh/authorized_keys
 chown -R vagrant:vagrant .ssh
 ```
 
+**配置**
+```
+关闭自动生成ssh key
+config.vm.insert_key=false
+
+配置固定ip
+config.ssh.network "private_work",ip:"192.168.20.20"
+```
+
+**如何自己下载镜像完成配置**
 官方文档有相关的配置说明以及一些讲解，下面是常规的一些要点
 
 1.在国内下载速度太慢，一般的做法是使用迅雷下载远程镜像，然后在本地进行新增
