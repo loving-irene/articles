@@ -32,7 +32,36 @@ config.vm.insert_key=false
 
 配置固定ip
 config.ssh.network "private_work",ip:"192.168.20.20"
+
+共享文件夹设置
+config.vm.synced_folder "d:/","/src/path",create:true
+
+共享文件夹设置可能会不成功，因为 virtualbox 的增强现实功能没有安装，在设置-存储中添加一个虚拟光驱，将virtualbox文件夹下的 VBoxGuestAddtion 添加进去
 ```
+
+**增强功能失败**
+通过 vagrant 配置文件来设置 share folder，如果不行，再考虑安装增强功能的问题，通过 virtualbox 的窗口来操作
+
+如果不行，就需要手动安装 virtualbox 文件夹下的 VBoxGuestAddtions.iso 镜像，然后进行下面的操作
+```
+sudo mount /dev/cdrom /cdrom   # /cdrom 为自己创建的用来挂载对应镜像的文件夹
+
+cd /cdrom
+./VBoxLinuxAddtions.run
+
+这个可能会报错，报错 “modprobe vboxguest failed”
+
+yum install dkms binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers
+
+yum install kernel-devel
+
+这样就解决了
+```
+
+
+**使用composer安装要点**
+特别注意权限，如果是 root 权限下安装的，如果切换到其他用户安装可能会不成功，yii2 高级版安装和国内源切换管理工具就是这个问题
+
 
 **如何自己下载镜像完成配置**
 官方文档有相关的配置说明以及一些讲解，下面是常规的一些要点
