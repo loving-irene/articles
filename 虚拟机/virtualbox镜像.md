@@ -25,6 +25,14 @@ chmod 600 .ssh/authorized_keys
 chown -R vagrant:vagrant .ssh
 ```
 
+**composer安装yii2**
+安装可能会失败，报`Content-Length mismatch, received 63097 bytes out of the expected 966692`
+
+如果是这样，首先把 composer 源的设置以及第三方管理软件先操作一边
+
+然后编辑 php.ini，去掉 `proc_x` 函数的限制，然后就可以继续安装了
+
+
 **配置**
 ```
 关闭自动生成ssh key
