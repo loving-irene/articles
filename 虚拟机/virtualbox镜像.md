@@ -35,6 +35,8 @@ chown -R vagrant:vagrant .ssh
 删除的函数
 ```
 shell_exec
+proc_open
+proc_get_status
 ```
 
 
