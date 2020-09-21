@@ -47,6 +47,7 @@ https://learnku.com/articles/31989
 
 如果不在 vagrantfile 中配置 config.ssh.insert_key=false,第一次登录时 vagrant 会自动生成更安全的 key ，在主机和虚拟机上都会存放私钥文件，如果后续想改回 public box 的 insecure key，不仅是虚拟机上的文件要替换，同时主机上 `.vagrant\machines\default\virtualbox\private_key`的文件也要被删除掉
 
+使用 shell 登录时，需要使用 `insecure_private_key` 进行登录，路径在 `C:\Users\76435\.vagrant.d`，在当前登录用户的 `.vagrant.d` 目录下。
 
 **配置**
 ```
