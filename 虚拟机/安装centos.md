@@ -4,6 +4,10 @@
 
 **无法联网**
 
+第一步先`ping baidu.com`先看看网络是否连通，如果不同，就需要变更下DNS配置，修改`/etc/resolv.conf`文件，增加下几个地址`114.114.114.114,8.8.8.8`，前面所说的地址都是在`centos`下
+
+特别需要注意的是，该文件由 `network manager`自动生成，所以，每次重启`network`都会重置
+
 /etc/sysconfig/network-scripts/ifcfg-ens33【ens33位置就是网卡的名字，找到对应网卡的配置文件】 
 
 设置 BOOTPROTO = DHCP 和 ONBOOT = yes 即可（service network restart）
