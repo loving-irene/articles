@@ -29,3 +29,25 @@ fuser xxx 指定文件在被哪个 PID 使用
 top -p pid 查看指定 PID 情况
 
 ### 解压缩
+tar -zxvf filename.tar.gz  解压
+tar -cf package_name file_name 压缩，可以是文件也可以是文件夹
+
+### centos7防火墙
+查看防火墙状态
+firewall-cmd --state
+关闭防火墙
+systemctl stop firewalld.service
+禁止开机启动
+systemctl disable firewalld.service
+重启防火墙
+firewall-cmd --reload
+
+开启端口
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+--zone 作用域
+--add-port=80/tcp 添加端口，格式：端口/通讯协议
+--permanent 永久生效，无此参数重启失效
+
+
+### selinux
+selinux 是linux的安全增强包，主要是为了能够配置其他人访问系统的权限。
