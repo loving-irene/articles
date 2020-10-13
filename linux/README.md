@@ -2,6 +2,22 @@
 
 1. 文件相关
     -   [查看二进制文件](./file/二进制文件.md)
+    -   [linux文件类型介绍](./file/linux文件类型介绍.md)
+    -   [输入输出重定向](./file/输入输出重定向.md)
 2. 依赖包安装
     -   [查看yum安装路径](./lib/yum查看安装路径.md)
     -   [如何安装扩展](./lib/如何安装扩展.md)
+    -   [linux依赖安装的源](./lib/linux依赖安装的源.md)
+3. 服务启动
+    -   [平滑重启php-fpm](./service/php-fpm.md)
+    -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
+4. 文件查询
+    -   [cat](./file_check/cat.md)
+    -   [指定文件正在被哪个pid使用](./file_check/指定文件正在被哪个pid使用.md)
+    -   [通过服务名获取对应的pid](./file_check/通过服务名获取对应的pid.md)
+5. 系统设置
+    -   [设置环境变量](./setting/设置环境变量.md)
+    -   [centos7防火墙](./setting/centos7防火墙设置.md)
+    -   [linux进程状态](./setting/linux进程状态.md)
+6. 解压缩
+    -   [解压缩](./compress/解压缩.md)
