@@ -8,6 +8,7 @@
     -   [查看yum安装路径](./lib/yum查看安装路径.md)
     -   [如何安装扩展](./lib/如何安装扩展.md)
     -   [linux依赖安装的源](./lib/linux依赖安装的源.md)
+    -   [安装中文语言包](./lib/中文语言包.md)
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
     -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
@@ -19,5 +20,8 @@
     -   [设置环境变量](./setting/设置环境变量.md)
     -   [centos7防火墙](./setting/centos7防火墙设置.md)
     -   [linux进程状态](./setting/linux进程状态.md)
+    -   [log日志转储](./setting/log日志转储.md)
 6. 解压缩
     -   [解压缩](./compress/解压缩.md)
+7. 其他
+    -   [linux上查看远程指定端口是否打开](./other/linux上查看远程指定端口是否打开.md)
