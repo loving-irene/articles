@@ -27,4 +27,4 @@
     -   [定时器crontab](./command/定时器crontab.md)
 7. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远程指定端口是否打开.md)
-    -   [创建软链接](./other/创建软链接.md)
+    -   [创建软链接ln](./other/创建软链接.md)
