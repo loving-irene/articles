@@ -12,6 +12,7 @@
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
     -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
+    -   [kafka基础功能使用](./service/kafka基础功能使用.md)
 4. 文件查询
     -   [cat](./file_check/cat.md)
     -   [指定文件正在被哪个pid使用](./file_check/指定文件正在被哪个pid使用.md)
