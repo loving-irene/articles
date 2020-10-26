@@ -29,3 +29,4 @@
 7. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)
+    -   [设置环境变量path](./other/设置环境变量path.md)
