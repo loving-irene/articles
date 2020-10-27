@@ -9,6 +9,7 @@
     -   [如何安装扩展](./lib/如何安装扩展.md)
     -   [linux依赖安装的源](./lib/linux依赖安装的源.md)
     -   [安装中文语言包](./lib/中文语言包.md)
+    -   [安装java_openJDK](./lib/安装java_openJDK.md)
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
     -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
@@ -26,7 +27,10 @@
     -   [解压缩](./compress/解压缩.md)
 7.  命令
     -   [定时器crontab](./command/定时器crontab.md)
-7. 其他
-    -   [linux上查看远程指定端口是否打开](./other/linux上查看远程指定端口是否打开.md)
+8. 其他
+    -   [linux上查看远程指定端口是否打开](./other/linux上查看远/程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)
     -   [设置环境变量path](./other/设置环境变量path.md)
+    -   [查看端口port占用情况](./other/查看端口port占用情况.md)
+9. shell脚本
+    -   [脚本函数](./shell/脚本函数.md)

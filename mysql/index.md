@@ -7,3 +7,7 @@
     -   [配置查看bin-log日志位点](./setting/配置查看bin-log日志位点.md)
 3.  其他
     -   [数据库类型分类](./other/数据库类型分类.md)
+4.  库操作
+    -   [创建库create](./database/创建库create_database.md)
+5.  表操作
+    -   [创建表create](./table/创建表create_table.md)
