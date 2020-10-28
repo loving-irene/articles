@@ -27,6 +27,7 @@
     -   [解压缩](./compress/解压缩.md)
 7.  命令
     -   [定时器crontab](./command/定时器crontab.md)
+    -   [创建目录mkdir](./command/创建目录mkdir.md)
 8. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远/程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)
