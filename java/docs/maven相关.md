@@ -51,3 +51,7 @@ maven 需要3个变量，用来唯一确定某个 jar 包：
 在命令中，进入到 `pom.xml` 所在目录，执行命令
 
 `mvn clean package`
+
+### 启动服务
+
+`mvn spring-boot:run`
