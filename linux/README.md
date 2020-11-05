@@ -29,11 +29,15 @@
     -   [定时器crontab](./command/定时器crontab.md)
     -   [创建目录mkdir](./command/创建目录mkdir.md)
     -   [scp传输文件](./command/scp传输文件.md)
+    -   [curl命令使用](./command/curl命令使用.md)
+    -   [find查找指定文件](./command/find查找指定文件.md)
 8. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远/程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)
     -   [设置环境变量path](./other/设置环境变量path.md)
     -   [查看端口port占用情况](./other/查看端口port占用情况.md)
+    -   [查看linux安装了哪些源](./other/查看linux安装了哪些源.md)
+    -   [修改文件所属用户组和用户](./other/修改文件所属用户组和用户.md)
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)
