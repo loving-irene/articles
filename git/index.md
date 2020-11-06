@@ -6,3 +6,4 @@
 2. 命令
     -   [将本地库推到远端](./doc/将本地库推到远端.md)
     -   [git创建ssh公钥](./doc/git创建ssh公钥.md)
+    -   [git在push之后回退到指定commit](./doc/git在push之后回退到指定commit.md)
