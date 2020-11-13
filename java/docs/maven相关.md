@@ -55,3 +55,16 @@ maven 需要3个变量，用来唯一确定某个 jar 包：
 ### 启动服务
 
 `mvn spring-boot:run`
+
+### 常用命令
+
+```
+mvn package #打包
+
+mvn jar:jar #只打jar包
+
+mvn test #运行测试
+
+mvn install #安装项目到本地
+
+```
