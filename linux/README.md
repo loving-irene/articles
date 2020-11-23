@@ -10,6 +10,7 @@
     -   [linux依赖安装的源](./lib/linux依赖安装的源.md)
     -   [安装中文语言包](./lib/中文语言包.md)
     -   [安装java_openJDK](./lib/安装java_openJDK.md)
+    -   [常见的包不存在问题_no_package_found](./lib/常见的包不存在问题.md)
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
     -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
@@ -38,6 +39,7 @@
     -   [查看端口port占用情况](./other/查看端口port占用情况.md)
     -   [查看linux安装了哪些源](./other/查看linux安装了哪些源.md)
     -   [修改文件所属用户组和用户](./other/修改文件所属用户组和用户.md)
+    -   [linux信息查看](./other/linux信息查看.md)
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)
