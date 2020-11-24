@@ -5,12 +5,14 @@
     -   [linux文件类型介绍](./file/linux文件类型介绍.md)
     -   [输入输出重定向](./file/输入输出重定向.md)
 2. 依赖包安装
-    -   [查看yum安装路径](./lib/yum查看安装路径.md)
+    -   [yum查询安装包路径等操作](./lib/yum安装等操作.md)
+    -   [yum操作命令](./lib/yum操作命令.md)
     -   [如何安装扩展](./lib/如何安装扩展.md)
     -   [linux依赖安装的源](./lib/linux依赖安装的源.md)
     -   [安装中文语言包](./lib/中文语言包.md)
     -   [安装java_openJDK](./lib/安装java_openJDK.md)
     -   [常见的包不存在问题_no_package_found](./lib/常见的包不存在问题.md)
+    -   [rpm安装操作](./lib/rpm安装操作.md)
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
     -   [如何在shell脚本中以root权限启动服务](./service/如何在shell脚本中以root权限启动服务.md)
