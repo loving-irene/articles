@@ -65,6 +65,10 @@ mvn jar:jar #只打jar包
 
 mvn test #运行测试
 
+-DskipTests   不执行测试用例，但编译测试用例生成相应的class文件
+-Dmaven.test.skip=true  不执行测试用例，也不编译测试用例
+
 mvn install #安装项目到本地
+
 
 ```

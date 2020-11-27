@@ -12,6 +12,7 @@
     -   [安装中文语言包](./lib/中文语言包.md)
     -   [安装java_openJDK](./lib/安装java_openJDK.md)
     -   [常见的包不存在问题_no_package_found](./lib/常见的包不存在问题.md)
+    -   [rzsz安装问题](./lib/rzsz安装问题.md)
     -   [rpm安装操作](./lib/rpm安装操作.md)
 3. 服务启动
     -   [平滑重启php-fpm](./service/php-fpm.md)
