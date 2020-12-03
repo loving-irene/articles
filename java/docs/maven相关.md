@@ -4,10 +4,10 @@ maven 定义了几种依赖关系，`compile`,`test`,`runtime`,`provided`
 
 |scope|说明|备注|
 |-|-|-|
-|compile|编译时需要用到该 jar 包，默认||
-|test|编译test时需要用到该 jar 包||
-|runtime|编译时不需要，运行时需要||
-|provided|编译时需要用到，但运行时由 JDK 或某个服务器提供||
+|compile|编译时需要用到该 jar 包，默认|.|
+|test|编译test时需要用到该 jar 包|.|
+|runtime|编译时不需要，运行时需要|.|
+|provided|编译时需要用到，但运行时由 JDK 或某个服务器提供|.|
 
 
 ### 中央仓库
@@ -70,5 +70,8 @@ mvn test #运行测试
 
 mvn install #安装项目到本地
 
+mvn spring-boot:run 编译并执行
+
+mvn mybatis-generator:generate 通过maven plugin方式生成代码
 
 ```
