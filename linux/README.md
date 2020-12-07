@@ -35,6 +35,7 @@
     -   [scp传输文件](./command/scp传输文件.md)
     -   [curl命令使用](./command/curl命令使用.md)
     -   [find查找指定文件](./command/find查找指定文件.md)
+    -   [ssh-copy-id实现无密码登录](./command/ssh-copy-id实现无密码登录.md)
 8. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远/程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)

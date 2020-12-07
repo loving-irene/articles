@@ -10,6 +10,7 @@
     -   [通过sql脚本创建库表](./other/通过sql脚本创建库表.md)
     -   [mysql远程连接](./other/mysql远程连接.md)
     -   [创建用户并授权](./other/创建用户并授权.md)
+    -   [导入数据import](./other/导入数据import.md)
 4.  库操作
     -   [创建库create](./database/创建库create_database.md)
 5.  表相关操作
