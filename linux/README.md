@@ -49,3 +49,5 @@
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)
+    -   [shell_string字符串截取](./shell/shell字符串截取.md)
+    -   [命令返回码](./shell/命令返回码.md)
