@@ -45,7 +45,8 @@
     -   [查看linux安装了哪些源](./other/查看linux安装了哪些源.md)
     -   [修改文件所属用户组和用户](./other/修改文件所属用户组和用户.md)
     -   [linux信息查看](./other/linux信息查看.md)
-    -   [命令别名](./other/命令别名.md)
+    -   [命令别名alias](./other/命令别名.md)
+    -   [check软件包下载校验](./other/软件包下载校验.md)
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)
