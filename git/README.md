@@ -8,3 +8,6 @@
     -   [git创建ssh公钥](./doc/git创建ssh公钥.md)
     -   [git在push之后回退到指定commit](./doc/git在push之后回退到指定commit.md)
     -   [安装gitbook](./doc/安装gitbook.md)
+    -   [checkout撤回](./doc/checkout撤回.md)
+    -   [git show查看指定提交](./doc/查看指定提交.md)
+    -   [git删除untrack文件](./doc/git删除untrack文件.md)
