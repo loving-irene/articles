@@ -12,3 +12,5 @@
     -   [checkout撤回](./doc/checkout撤回.md)
     -   [git show查看指定提交](./doc/查看指定提交.md)
     -   [git删除untrack文件](./doc/git删除untrack文件.md)
+3.  错误
+    -   [git仓库存在，本地拉取报错not found](./error/报错not-found.md)
