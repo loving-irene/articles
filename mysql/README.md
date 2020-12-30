@@ -16,3 +16,4 @@
 5.  表相关操作
     -   [创建表create](./table/创建表create_table.md)
     -   [update更新表记录](./table/update更新表记录.md)
+    -   [表结构修改alter](./table/表结构修改alter.md)
