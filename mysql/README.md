@@ -17,3 +17,5 @@
     -   [创建表create](./table/创建表create_table.md)
     -   [update更新表记录](./table/update更新表记录.md)
     -   [表结构修改alter](./table/表结构修改alter.md)
+6.  排错记录
+    -   [defaultParameterMap](./error/javashop连接出错.md)

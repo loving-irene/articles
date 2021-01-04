@@ -11,3 +11,5 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [@ApiModelProperty](./annotation/apiModelProperty.md)
     - [@NotEmpty@NotNull@NotBlank](./annotation/空.md)
     - [@JsonNaming](./annotation/jsonNaming.md)
+2.  排错处理
+    - [基本处理操作](./error/base.md)
