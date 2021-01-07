@@ -55,3 +55,7 @@
     -   [命令返回码](./shell/命令返回码.md)
 10. /sys路径说明
     -   [devices](./path/devices.md)
+    -   [dev](./path/dev.md)
+    -   [class](./path/class.md)
+    -   [block](./path/block.md)
+    [网页说明，有一些没有完成](https://blog.csdn.net/luckywang1103/article/details/25715101)
