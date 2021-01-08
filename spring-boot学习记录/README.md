@@ -21,3 +21,4 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [Long和long](./other/long与Long.md)
 4.  类说明
     - [ConstraintValidator](./class/ConstraintValidator.md)
+    - [HttpSecurity](./class/HttpSecurity.md)
