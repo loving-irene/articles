@@ -4,6 +4,7 @@
     -   [git_log颜色设置](./other/git_log颜色设置.md)
     -   [git拉取指定分支](./other/git拉取指定分支.md)
     -   [git flow教程](./other/git-flow教程.md)
+    -   [git tag](./other/获取指定tag的代码.md)
 2. 命令
     -   [将本地库推到远端](./doc/将本地库推到远端.md)
     -   [git创建ssh公钥](./doc/git创建ssh公钥.md)

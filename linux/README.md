@@ -48,6 +48,7 @@
     -   [命令别名alias](./other/命令别名.md)
     -   [check软件包下载校验](./other/软件包下载校验.md)
     -   [dns地址](./other/dns地址.md)
+    -   [用户增加sudo权限](./other/用户增加sudo权限.md)
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)

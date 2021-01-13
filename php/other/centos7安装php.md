@@ -1,0 +1,1 @@
+[guide](https://www.footmark.info/linux/centos/centos7-install-php7x/)
