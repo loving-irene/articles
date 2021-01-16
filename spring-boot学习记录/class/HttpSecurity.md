@@ -7,10 +7,8 @@ java 类配置文件完全就是对 xml 文件的映射，根本还是理解 xml
 protected void configure(HttpSecurity http) throws Exception {
     http
         .authorizeRequests()
-            .anyRequest().authenticated()
-            .and()
-        .formLogin()
-            .and()
+            .anyRequest().authenticated().and()
+        .formLogin().and()
         .httpBasic();
 }
 ```

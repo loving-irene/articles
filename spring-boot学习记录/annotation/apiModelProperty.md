@@ -9,7 +9,7 @@ example–举例说明
 hidden–隐藏
 
 
-```
+```java
 @ApiModel(value="user对象",description="用户对象user")
 public class User implements Serializable{
     private static final long serialVersionUID = 1L;
