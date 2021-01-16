@@ -11,7 +11,7 @@ SNAKE_CASE：下划线连接单词 （aa_bb_cc,大小写不分）
 
 UPPER_CAMEL_CASE：驼峰式（AaBbCc）
 
-LOWER_CAMEL_CASE：驼峰式（AaBbCc）
+LOWER_CAMEL_CASE：驼峰式（aaBbCc）
 
 LOWER_CASE：无论什么格式，转换成小写输出
 
