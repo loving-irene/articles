@@ -8,7 +8,7 @@
 3. 控制器中要使用 `@RequestBody` 来说明从请求体中拿取参数
 
 示例，如果嵌套直接嵌套即可
-```
+```json
 {
     "category_id":368,
     "goods_params_list":[

@@ -3,9 +3,9 @@
 需要自定义两个类
 1.  注解类
 
-上面有4个元注解，其中 @Constraint(validatedBy = {RedirectTypeValidator.class}) 指明用哪个具体的类实现校验
+上面有4个元注解，其中 `@Constraint(validatedBy = {RedirectTypeValidator.class})` 指明用哪个具体的类实现校验
 
-```
+```java
 @Constraint(validatedBy = {RedirectTypeValidator.class})
 @Documented
 @Target( {ElementType.PARAMETER,ElementType.FIELD})
@@ -27,7 +27,7 @@ public @interface RedirectType {
 function initialize 进行一些初始化操作
 
 function isValid 进行校验动作
-```
+```java
 public class RedirectTypeValidator implements ConstraintValidator<RedirectType, String> {
 
     private final String[] ALL_STATUS = {"APPLET_PAGE","APPLET_TAB","EXT_APPLET_PAGE","EXT_APPLET_TAB","H5_PAGE","APPLET_CHAT","GOODS_ID","GOODS_CATEGORY","LIVE"};

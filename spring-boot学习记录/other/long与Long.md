@@ -18,7 +18,7 @@ Byte,Short,Integer,Long,Float,Double,Character,Boolean
 ### long 转换 Long
 
 对应的，将 long 转换为 Long 即可。
-```
+```java
 int n = 10;
 Integer in = new Integer(100);
 
