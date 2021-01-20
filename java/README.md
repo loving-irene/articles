@@ -11,3 +11,4 @@
     -   [内存溢出处理](./error/内存溢出处理.md)
 4.  数据结构
     -   [map](./data/map.md)
+    -   [enum](./data/enum.md)
