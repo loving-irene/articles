@@ -37,6 +37,8 @@
     -   [curl命令使用](./command/curl命令使用.md)
     -   [find查找指定文件](./command/find查找指定文件.md)
     -   [ssh-copy-id实现无密码登录](./command/ssh-copy-id实现无密码登录.md)
+    -   [查询ip地址](./command/ip地址.md)
+    -   [硬盘disk](./command/硬盘disk查询.md)
 8. 其他
     -   [linux上查看远程指定端口是否打开](./other/linux上查看远/程指定端口是否打开.md)
     -   [创建软链接ln](./other/创建软链接.md)
@@ -49,6 +51,7 @@
     -   [check软件包下载校验](./other/软件包下载校验.md)
     -   [dns地址](./other/dns地址.md)
     -   [用户增加sudo权限](./other/用户增加sudo权限.md)
+    -   [ftp服务](./other/ftp服务.md)
 9. shell脚本
     -   [脚本函数](./shell/脚本函数.md)
     -   [引入环境变量](./shell/引入环境变量.md)

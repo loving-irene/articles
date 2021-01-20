@@ -12,3 +12,5 @@
 4.  数据结构
     -   [map](./data/map.md)
     -   [enum](./data/enum.md)
+5.  部署
+    -   [jar包部署](./deploy/jar包部署.md)

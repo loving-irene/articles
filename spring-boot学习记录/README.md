@@ -27,6 +27,7 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [使用postman传入对象参数list](./other/使用postman传入对象参数list.md)
     - [spring-data-elasticsearch说明](./other/es说明.md)
     - [hotswapfailed报错](./other/hot报错.md)
+    - [idea设置ftp](./other/ftp设置.md)
 4.  类说明
     - [ConstraintValidator](./class/ConstraintValidator.md)
     - [HttpSecurity权限](./class/HttpSecurity.md)
