@@ -19,6 +19,8 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [@TableId](./annotation/tableId.md)
     - [@PathVariable](./annotation/pathVariable.md)
     - [@Value](./annotation/value.md)
+    - [@JobHandler](./annotation/jobhandler.md)
+    - [@Component](./annotation/component.md)
 2.  排错处理
     - [基本处理操作](./error/base.md)
     - [编译报错，找不到符号](./error/找不到符号.md)
@@ -28,6 +30,10 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [spring-data-elasticsearch说明](./other/es说明.md)
     - [hotswapfailed报错](./other/hot报错.md)
     - [idea设置ftp](./other/ftp设置.md)
+    - [idea设置类的方法可见](./other/设置类方法可见.md)
+    - [log颜色占位符设置](./other/log.md)
 4.  类说明
     - [ConstraintValidator](./class/ConstraintValidator.md)
     - [HttpSecurity权限](./class/HttpSecurity.md)
+5.  配置
+    - [swaggerAPI文档配置说明](./config/swagger.md)
