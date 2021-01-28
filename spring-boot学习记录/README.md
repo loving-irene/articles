@@ -21,6 +21,7 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [@Value](./annotation/value.md)
     - [@JobHandler](./annotation/jobhandler.md)
     - [@Component](./annotation/component.md)
+    - [@Resource](./annotation/resource.md)
 2.  排错处理
     - [基本处理操作](./error/base.md)
     - [编译报错，找不到符号](./error/找不到符号.md)
@@ -32,6 +33,8 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [idea设置ftp](./other/ftp设置.md)
     - [idea设置类的方法可见](./other/设置类方法可见.md)
     - [log颜色占位符设置](./other/log.md)
+    - [xxl中cron配置说明](./other/cron配置.md)
+    - [xxl报错jobHandler未发现](./other/handler未发现.md)
 4.  类说明
     - [ConstraintValidator](./class/ConstraintValidator.md)
     - [HttpSecurity权限](./class/HttpSecurity.md)
