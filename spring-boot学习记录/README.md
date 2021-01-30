@@ -22,6 +22,7 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [@JobHandler](./annotation/jobhandler.md)
     - [@Component](./annotation/component.md)
     - [@Resource](./annotation/resource.md)
+    - [@RestController](./annotation/restcontroller.md)
 2.  排错处理
     - [基本处理操作](./error/base.md)
     - [编译报错，找不到符号](./error/找不到符号.md)
