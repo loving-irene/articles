@@ -1,4 +1,4 @@
-#### spring中输入日志的颜色已经占位符使用
+#### spring中输入日志的颜色以及占位符使用
 
 ```java
 logger.error("发送短信参数异常,请检查phone={} ,vcode={} ,param={} ", phone, vcode, param);
