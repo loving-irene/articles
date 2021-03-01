@@ -39,3 +39,10 @@
 **解决办法**
 1.在脚本中使用全路径
 2.在脚本中手动引入环境变量设置文件，如`source /etc/profile`
+
+
+### crontab 日志查看
+查看下面这个文件即可
+```vim
+tail -f /var/log/cron
+```

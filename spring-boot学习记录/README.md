@@ -23,6 +23,7 @@ spring-boot 的学习记录，按照问题的形式进行记录，以备查询�
     - [@Component](./annotation/component.md)
     - [@Resource](./annotation/resource.md)
     - [@RestController](./annotation/restcontroller.md)
+    - [@Order](./annotation/order.md)
 2.  单元测试注解
     - [@RunWith](./annotation-test/runwith.md)
 2.  排错处理
