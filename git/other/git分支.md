@@ -2,6 +2,8 @@
 
 `git clone  http://10.1.1.11/service/tmall-service.git`
 
+默认拉取的是仓库设置的默认分支，如果没有特别设置，一般都是master分支
+
 ### 指定分支
 
 `git clone -b dev_jk http://10.1.1.11/service/tmall-service.git`
